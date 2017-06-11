@@ -1,7 +1,7 @@
 # Rest_hw1
 Step 1: run command "docker-compose up" to start mysql,
 Step 2: run command "mvn clean install" to build,
-and "java -jar Running-information-analysis-service-0.0.1-SNAPSHOT.jar"
+and go to target repository run command "java -jar Running-information-analysis-service-0.0.1-SNAPSHOT.jar"
 to start application.
 step 3: go to postman to post data on url: "localhost:8080/runningInfo"
 step 4: check the GET request result on url :"localhost:8080/runningInfo/0?page=0"
