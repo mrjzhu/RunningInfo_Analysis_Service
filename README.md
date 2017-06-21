@@ -14,7 +14,7 @@ sort the runningInfo By HealthLevel.
 ### 1. Download project file
 ```
 git clone https://github.com/mrjzhu/Rest_hw1.git
-cd Rest_hw1/Running-information-analysis-service
+cd /Running-information-analysis-service
 ```
 ### 2. Configure Mysql image in Docker-container
 ```
