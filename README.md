@@ -21,8 +21,10 @@ cd Rest_hw1/Running-information-analysis-service
 docker-compose up
 ```
 
-### 3. Login Mysql Database to Create you database
-
+### 3. Login Mysql Database to Create your database
+```
+mysql -u root -p
+```
 
 ## Run
 
@@ -30,7 +32,7 @@ docker-compose up
 ```
 docker-compose up
 ```
-###Step 2 build
+### Step 2 build
 ```
 mvn clean install
 ```
@@ -38,7 +40,7 @@ mvn clean install
 ```
 cd target
 java -jar Running-information-analysis-service-0.0.1-SNAPSHOT.jar
-
+```
 
 ## Post data for test
 ### go to postman to post data on url: "localhost:8080/runningInfo"
